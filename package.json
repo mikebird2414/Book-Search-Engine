@@ -1,7 +1,7 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Your Task",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -14,5 +14,18 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.25.2",
+    "graphql": "^15.5.1",
+    "mongodb": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikebird2414/Book-Search-Engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikebird2414/Book-Search-Engine/issues"
+  },
+  "homepage": "https://github.com/mikebird2414/Book-Search-Engine#readme"
 }
